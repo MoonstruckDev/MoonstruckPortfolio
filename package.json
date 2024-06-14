@@ -1,7 +1,0 @@
-{
-  "dependencies": {
-    "create-react-app": "^5.0.1",
-    "react-router": "^6.23.1",
-    "sass": "^1.77.5"
-  }
-}
