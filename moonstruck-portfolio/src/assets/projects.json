@@ -1,0 +1,98 @@
+[
+    {
+        "id": "0",
+        "title": "Booki",
+        "description": "L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
+        "cover": {
+            "src": "CHEMIN VERS L’IMAGE",
+            "alt": "TEXTE ALTERNATIF DE L’IMAGE",
+            "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
+        },
+        "techstack": ["css", "html"],
+        "link": "PLACEHOLDER"
+    },
+    {
+        "id": "1",
+        "title": "Ohmyfood",
+        "description": "L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
+        "cover": {
+            "src": "CHEMIN VERS L’IMAGE",
+            "alt": "TEXTE ALTERNATIF DE L’IMAGE",
+            "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
+        },
+        "techstack": ["scss", "html"],
+        "link": "PLACEHOLDER"
+    },
+    {
+        "id": "2",
+        "title": "Printit",
+        "description": "L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
+        "cover": {
+            "src": "CHEMIN VERS L’IMAGE",
+            "alt": "TEXTE ALTERNATIF DE L’IMAGE",
+            "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
+        },
+        "techstack": ["css", "html"],
+        "link": "PLACEHOLDER"
+    },
+    {
+        "id": "3",
+        "title": "Sophie Bluel",
+        "description": "L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
+        "cover": {
+            "src": "CHEMIN VERS L’IMAGE",
+            "alt": "TEXTE ALTERNATIF DE L’IMAGE",
+            "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
+        },
+        "techstack": ["css", "html", "javascript"],
+        "link": "PLACEHOLDER"
+    },
+    {
+        "id": "4",
+        "title": "Kasa",
+        "description": "L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
+        "cover": {
+            "src": "CHEMIN VERS L’IMAGE",
+            "alt": "TEXTE ALTERNATIF DE L’IMAGE",
+            "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
+        },
+        "techstack": ["scss", "html", "react", "javascript"],
+        "link": "PLACEHOLDER"
+    },
+    {
+        "id": "5",
+        "title": "Nina Carducci",
+        "description": "L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
+        "cover": {
+            "src": "CHEMIN VERS L’IMAGE",
+            "alt": "TEXTE ALTERNATIF DE L’IMAGE",
+            "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
+        },
+        "techstack": ["css", "html", "javascript"],
+        "link": "PLACEHOLDER"
+    },
+    {
+        "id": "6",
+        "title": "Nina Carducci",
+        "description": "L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
+        "cover": {
+            "src": "CHEMIN VERS L’IMAGE",
+            "alt": "TEXTE ALTERNATIF DE L’IMAGE",
+            "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
+        },
+        "techstack": ["css", "html", "javascript"],
+        "link": "PLACEHOLDER"
+    },
+    {
+        "id": "7",
+        "title": "ArgentBank",
+        "description": "L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
+        "cover": {
+            "src": "CHEMIN VERS L’IMAGE",
+            "alt": "TEXTE ALTERNATIF DE L’IMAGE",
+            "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
+        },
+        "techstack": ["scss", "html", "javascript", "redux", "react"],
+        "link": "PLACEHOLDER"
+    }
+]
