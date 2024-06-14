@@ -1,0 +1,70 @@
+.SliderContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+    position: relative;
+ }
+ .ImgSlider {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    @media (max-width: 1001px) {
+       height: 255px;
+    }
+ }
+
+ .Arrow { 
+   position: absolute;
+   fill: white;
+   top: 35%;
+}
+ .ArrowSliderRight {
+
+
+    cursor: pointer;
+    right: 2%;
+    @media (max-width: 1001px) {
+       width: 7%;
+    }
+ }
+ .ArrowSliderLeft {
+    position: absolute;
+    cursor: pointer;
+    left: 2%;
+    transform: scaleX(-1);
+    @media (max-width: 1001px) {
+       width: 7%;
+    }
+ }
+ .CountSlider {
+    position: absolute;
+ 
+    bottom: 0%;
+ 
+    color: white;
+    font-weight: 700;
+ }
+
+ .Dots {
+   display: flex;
+   justify-content: center;
+   position: absolute;
+   bottom: 10px;
+   width: 100%;
+}
+
+.Dot {
+   width: 10px;
+   height: 10px;
+   margin: 0 5px;
+   background-color: #fff;
+   border-radius: 50%;
+   cursor: pointer;
+   opacity: 0.5;
+   transition: opacity 0.3s;
+}
+
+.Dot.active {
+   opacity: 1;
+}
