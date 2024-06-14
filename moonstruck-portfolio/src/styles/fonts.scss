@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
+// Define your global font styles
+body {
+  font-family: 'Kalam', sans-serif; /* Default font family */
+}
+
+/* Example of defining specific elements with different fonts */
+h1, h2, h3, a{
+  font-family: 'JetBrains Mono', monospace; /* Example of using JetBrains Mono for headings */
+}
+
+span {
+  font-family: 'Kalam', sans-serif; /* Default font family */
+  color: #be42f0;
+  font-weight: bold;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black; 
+  text-decoration:none; 
+  cursor:pointer;  
+}
