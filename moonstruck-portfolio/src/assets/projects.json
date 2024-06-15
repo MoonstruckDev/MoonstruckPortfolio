@@ -97,22 +97,6 @@
     },
     {
         "id": "6",
-        "title": "Nina Carducci",
-        "description": "Description placeholder text for Nina Carducci project.",
-        "cover": {
-            "src": "nina_carducci_cover",
-            "alt": "TEXTE ALTERNATIF DE L’IMAGE",
-            "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
-        },
-        "pictures": {
-            "1": "nina_carducci_picture_1",
-            "2": "nina_carducci_picture_2"
-        },
-        "techstack": ["css", "html", "javascript"],
-        "link": "PLACEHOLDER"
-    },
-    {
-        "id": "7",
         "title": "ArgentBank",
         "description": "Description placeholder text for ArgentBank project.",
         "cover": {
