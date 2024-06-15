@@ -1,43 +1,60 @@
-import { useState } from 'react';
-import './slider.scss';
-import { ReactComponent as Arrow } from '../../assets/icons/arrow.svg';
+import React, { useState } from 'react';
+import './slider.scss'; // Assuming your CSS file is named slider.scss
+import { ReactComponent as ArrowIcon } from '../../assets/icons/arrow.svg';
 
-function Slider({ images }) {
-  const [currentIndex, setCurrentIndex] = useState(0);
+function Slider({ projects, currentIndex, setCurrentIndex }) {
+  const [direction, setDirection] = useState(null);
+
+  function handleDotClick(index) {
+    if (index !== currentIndex) {
+      setDirection(index > currentIndex ? 'next' : 'prev');
+      setCurrentIndex(index);
+    }
+  }
 
   function nextImage() {
-    setCurrentIndex(currentIndex === images.length - 1 ? 0 : currentIndex + 1);
+    setDirection('next');
+    setCurrentIndex((prevIndex) => (prevIndex === projects.length - 1 ? 0 : prevIndex + 1));
   }
 
   function prevImage() {
-    setCurrentIndex(currentIndex === 0 ? images.length - 1 : currentIndex - 1);
-  }
-
-  function goToImage(index) {
-    setCurrentIndex(index);
+    setDirection('prev');
+    setCurrentIndex((prevIndex) => (prevIndex === 0 ? projects.length - 1 : prevIndex - 1));
   }
 
   return (
-    <section className='SliderContainer'>
-      {images.length > 1 && (
-        <>
-          <Arrow className='Arrow ArrowSliderLeft' onClick={prevImage} aria-label="Previous image" />
-          <Arrow className='Arrow ArrowSliderRight' onClick={nextImage} aria-label="Next Image" />
-
-          <div className='Dots'>
-            {images.map((_, index) => (
-              <div
-                key={index}
-                className={`Dot ${index === currentIndex ? 'active' : ''}`}
-                onClick={() => goToImage(index)}
-                aria-label={`Go to image ${index + 1}`}
-              />
-            ))}
+    <section className="SliderContainer">
+      {projects.map((project, index) => {
+        // Determine classes for each slide based on currentIndex and direction
+        let slideClasses = 'ImgSlider';
+        if (index === currentIndex) slideClasses += ' active';
+        if (
+          (index === (currentIndex - 1 + projects.length) % projects.length && direction === 'prev') ||
+          (index === (currentIndex + 1) % projects.length && direction === 'next')
+        ) {
+          slideClasses += ' incoming';
+        }
+        return (
+          <div key={index} className={slideClasses}>
+            <img src={project.cover.src} alt={`Slide ${index + 1}`} />
+            <h1 className="ProjectTitle kalam">{project.title}</h1>
           </div>
-        </>
-      )}
+        );
+      })}
 
-      <img className={`ImgSlider ${currentIndex}`} src={images[currentIndex]} alt={`Slide ${currentIndex + 1}`} />
+      <div className="Dots">
+        {projects.map((_, index) => (
+          <div
+            key={index}
+            className={`Dot ${index === currentIndex ? 'active' : ''}`}
+            onClick={() => handleDotClick(index)}
+            aria-label={`Go to image ${index + 1}`}
+          />
+        ))}
+      </div>
+
+      <ArrowIcon className="Arrow ArrowSliderLeft" onClick={prevImage} aria-label="Previous image" />
+      <ArrowIcon className="Arrow ArrowSliderRight" onClick={nextImage} aria-label="Next Image" />
     </section>
   );
 }

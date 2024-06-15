@@ -4,9 +4,13 @@
         "title": "Booki",
         "description": "L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
         "cover": {
-            "src": "https://cdn.discordapp.com/attachments/1213912056315514881/1246490216177602621/GO8loKhaEAAYdVQ.jpg?ex=666db77a&is=666c65fa&hm=3488065da3a187ab0442b14aa86af8296deb7bac4cdca208b8f873ff94bc2919&",
+            "src": "",
             "alt": "TEXTE ALTERNATIF DE L’IMAGE",
             "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
+        },
+        "pictures": {
+            "1": "",
+            "2": ""
         },
         "techstack": ["css", "html"],
         "link": "PLACEHOLDER"

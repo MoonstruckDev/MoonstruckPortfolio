@@ -3,6 +3,7 @@ import './header.scss'; // Import your CSS or SCSS file for styling
 import Icon from '../../assets/icons/wave.gif';
 import getLatestCommitDate from '../../helpers/githubdate'; // Import your asynchronous function
 import '../../styles/fonts.scss'
+import { Link } from 'react-router-dom';
 
 
 function Header() {
@@ -29,10 +30,10 @@ function Header() {
             </h2>
             <nav className="header__nav">
                 <ul className="nav__list">
-                    <li className="list__item"><a href="#"><span>Hi!</span></a></li>
-                    <li className="list__item"><a href="#">Homepage</a></li>
-                    <li className="list__item"><a href="#">Websites</a></li>
-                    <li className="list__item"><a href="#">Contact</a></li>
+                    <li className="list__item"><span>Hi!</span></li>
+                    <li className="list__item"><Link to="/">Homepage</Link></li>
+                    <li className="list__item"><Link to="/Projects">Projects</Link></li>
+                    <li className="list__item"><Link to="/Contact">Contact</Link></li>
                 </ul>
                 <img className="header__logo" src={Icon} alt="MoonstruckDev's profile picture" />
             </nav>
