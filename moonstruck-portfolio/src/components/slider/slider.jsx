@@ -37,12 +37,13 @@ function Slider({ projects, currentIndex, setCurrentIndex }) {
         }
         return (
           <div key={index} className={slideClasses}>
-            {index === currentIndex && ( // Render only if current index matches
+            {/* Removed Render Only Active due to black transition bug */}
+            {/* {index === currentIndex && (  */} 
               <>
                 <img src={images[project.cover.src]} alt={`Slide ${index + 1}`} />
                 <h1 className="ProjectTitle kalam">{project.title}</h1>
               </>
-            )}
+            {/* )} */}
           </div>
         );
       })}
