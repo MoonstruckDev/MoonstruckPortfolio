@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import './slider.scss'; // Assuming your CSS file is named slider.scss
 import { ReactComponent as ArrowIcon } from '../../assets/icons/arrow.svg';
+import images from '../../helpers/getCoverImg'; // Assuming this helper returns image paths
+import './slider.scss';
 
 function Slider({ projects, currentIndex, setCurrentIndex }) {
   const [direction, setDirection] = useState(null);
@@ -36,8 +37,12 @@ function Slider({ projects, currentIndex, setCurrentIndex }) {
         }
         return (
           <div key={index} className={slideClasses}>
-            <img src={project.cover.src} alt={`Slide ${index + 1}`} />
-            <h1 className="ProjectTitle kalam">{project.title}</h1>
+            {index === currentIndex && ( // Render only if current index matches
+              <>
+                <img src={images[project.cover.src]} alt={`Slide ${index + 1}`} />
+                <h1 className="ProjectTitle kalam">{project.title}</h1>
+              </>
+            )}
           </div>
         );
       })}

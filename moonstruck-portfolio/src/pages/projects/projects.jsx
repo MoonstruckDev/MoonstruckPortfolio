@@ -20,12 +20,9 @@ function Projects() {
               </div>
             ))}
           </div>
-        <div key={currentIndex}>
-            <div className='description--box'>
-                <img src="../../assets/images/booki_cover" alt="" />
-                <p>{currentProject.description}</p> 
-            </div>
-
+        <div key={currentIndex} className='description'>
+                <img src={require('../../assets/images/booki_picture_1.png')} alt="" className='description__image' />
+                <p className='description__text'>{currentProject.description}</p> 
         </div>
       </section>
     </>

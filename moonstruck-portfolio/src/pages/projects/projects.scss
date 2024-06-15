@@ -5,6 +5,25 @@
     margin-top: 1rem;
 }
 
-.title {
-    
+.description {
+    margin-top: 5rem;
+    padding: 0 2rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+
+    &__text {
+        font-size: 1.5rem;
+        overflow: hidden;
+        text-overflow: 
+        ellipsis;
+        width: 30%;
+        align-self: center;
+
+    }
+    &__image {
+        width: auto;
+        height: 25rem;
+        object-fit: cover;
+    }
 }

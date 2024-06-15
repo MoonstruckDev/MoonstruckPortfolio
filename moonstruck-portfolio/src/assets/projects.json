@@ -2,15 +2,15 @@
     {
         "id": "0",
         "title": "Booki",
-        "description": "L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
+        "description": "Description placeholder text for Booki project.",
         "cover": {
-            "src": "./assets/images/booki_cover.avif",
+            "src": "booki_cover",
             "alt": "TEXTE ALTERNATIF DE L’IMAGE",
             "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
         },
         "pictures": {
-            "1": "./images/booki_picture_1.png",
-            "2": ""
+            "1": "booki_picture_1",
+            "2": "booki_picture_2"
         },
         "techstack": ["css", "html"],
         "link": "PLACEHOLDER"
@@ -18,11 +18,15 @@
     {
         "id": "1",
         "title": "Ohmyfood",
-        "description": "L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
+        "description": "Description placeholder text for Ohmyfood project.",
         "cover": {
-            "src": "https://cdn.discordapp.com/attachments/1213912056315514881/1246321293457100853/IMG_1652.png?ex=666dc2e7&is=666c7167&hm=a8e7dafc74e79bfdb120053ebc430588b0de8aa8c7beb4ff4dbbc343d70e99f3&",
+            "src": "ohmyfood_cover",
             "alt": "TEXTE ALTERNATIF DE L’IMAGE",
             "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
+        },
+        "pictures": {
+            "1": "ohmyfood_picture_1",
+            "2": "ohmyfood_picture_2"
         },
         "techstack": ["scss", "html"],
         "link": "PLACEHOLDER"
@@ -30,11 +34,15 @@
     {
         "id": "2",
         "title": "Printit",
-        "description": "L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
+        "description": "Description placeholder text for Printit project.",
         "cover": {
-            "src": "https://cdn.discordapp.com/attachments/1213912056315514881/1245706872686907412/Screenshot_20240528_030729.jpg?ex=666d80ee&is=666c2f6e&hm=662e566f5b5e8f239a3b6a8cdfba46403aeda5c0891784bc46a98cdb492fc707&",
+            "src": "printit_cover",
             "alt": "TEXTE ALTERNATIF DE L’IMAGE",
             "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
+        },
+        "pictures": {
+            "1": "printit_picture_1",
+            "2": "printit_picture_2"
         },
         "techstack": ["css", "html"],
         "link": "PLACEHOLDER"
@@ -42,11 +50,15 @@
     {
         "id": "3",
         "title": "Sophie Bluel",
-        "description": "L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
+        "description": "Description placeholder text for Sophie Bluel project.",
         "cover": {
-            "src": "https://cdn.discordapp.com/attachments/1213912056315514881/1242140637667790858/GOBqpX3WsAAS88M.jpg?ex=666db69d&is=666c651d&hm=71d509a733d52ed6d66aeb2001973a2ebf10d1ec9119167a47640cb6f0ee67ec&",
+            "src": "sophie_bluel_cover",
             "alt": "TEXTE ALTERNATIF DE L’IMAGE",
             "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
+        },
+        "pictures": {
+            "1": "sophie_bluel_picture_1",
+            "2": "sophie_bluel_picture_2"
         },
         "techstack": ["css", "html", "javascript"],
         "link": "PLACEHOLDER"
@@ -54,11 +66,15 @@
     {
         "id": "4",
         "title": "Kasa",
-        "description": "L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
+        "description": "Description placeholder text for Kasa project.",
         "cover": {
-            "src": "https://cdn.discordapp.com/attachments/1213912056315514881/1228395136673775678/Screenshot_20240410-174812.png?ex=666d255f&is=666bd3df&hm=b46a607e5151d82baa23de8edb6b1c3bbf69bee027574c91beb4a99577be7ee0&",
+            "src": "kasa_cover",
             "alt": "TEXTE ALTERNATIF DE L’IMAGE",
             "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
+        },
+        "pictures": {
+            "1": "kasa_picture_1",
+            "2": "kasa_picture_2"
         },
         "techstack": ["scss", "html", "react", "javascript"],
         "link": "PLACEHOLDER"
@@ -66,11 +82,15 @@
     {
         "id": "5",
         "title": "Nina Carducci",
-        "description": "L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
+        "description": "Description placeholder text for Nina Carducci project.",
         "cover": {
-            "src": "https://cdn.discordapp.com/attachments/1213912056315514881/1227019375945711766/Screenshot_20240408_151522_Instagram.jpg?ex=666d6a18&is=666c1898&hm=1eaa850cac31cee2eb83a9010072c1c39c77e62dcd3091a3ac62a4a9b2f17fc8&",
+            "src": "nina_carducci_cover",
             "alt": "TEXTE ALTERNATIF DE L’IMAGE",
             "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
+        },
+        "pictures": {
+            "1": "nina_carducci_picture_1",
+            "2": "nina_carducci_picture_2"
         },
         "techstack": ["css", "html", "javascript"],
         "link": "PLACEHOLDER"
@@ -78,11 +98,15 @@
     {
         "id": "6",
         "title": "Nina Carducci",
-        "description": "L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
+        "description": "Description placeholder text for Nina Carducci project.",
         "cover": {
-            "src": "https://media1.tenor.com/m/HbtBxeXWOWsAAAAC/spin-record.gif",
+            "src": "nina_carducci_cover",
             "alt": "TEXTE ALTERNATIF DE L’IMAGE",
             "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
+        },
+        "pictures": {
+            "1": "nina_carducci_picture_1",
+            "2": "nina_carducci_picture_2"
         },
         "techstack": ["css", "html", "javascript"],
         "link": "PLACEHOLDER"
@@ -90,11 +114,15 @@
     {
         "id": "7",
         "title": "ArgentBank",
-        "description": "L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
+        "description": "Description placeholder text for ArgentBank project.",
         "cover": {
-            "src": "https://media.discordapp.net/attachments/1213912056315514881/1214015650897334292/GGUI_cZWwAEhTMN.jpg?ex=666d916e&is=666c3fee&hm=2da8ba89a757641336ee7e8672866b0c937b586f4d2fc563500a19befbd6279c&=&format=webp&width=920&height=905",
+            "src": "argentbank_cover",
             "alt": "TEXTE ALTERNATIF DE L’IMAGE",
             "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
+        },
+        "pictures": {
+            "1": "argentbank_picture_1",
+            "2": "argentbank_picture_2"
         },
         "techstack": ["scss", "html", "javascript", "redux", "react"],
         "link": "PLACEHOLDER"
