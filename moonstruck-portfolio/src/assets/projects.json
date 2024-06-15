@@ -4,12 +4,12 @@
         "title": "Booki",
         "description": "L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
         "cover": {
-            "src": "",
+            "src": "./assets/images/booki_cover.avif",
             "alt": "TEXTE ALTERNATIF DE L’IMAGE",
             "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
         },
         "pictures": {
-            "1": "",
+            "1": "./images/booki_picture_1.png",
             "2": ""
         },
         "techstack": ["css", "html"],
