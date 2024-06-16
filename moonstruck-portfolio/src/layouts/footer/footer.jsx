@@ -7,12 +7,12 @@ const Footer = () => (
   <footer className="footer">
     <ul className="footer__list">
       <li className="footer__link">
-        <a className="footer__link--icon" href="https://github.com/MoonstruckDev" target="_blank" rel="noopener noreferrer">
+        <a className="footer__link--icon" aria-label='Link to my github' href="https://github.com/MoonstruckDev" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faGithub} /> {/* Use faGithub icon */}
         </a>
       </li>
       <li className="footer__link">
-        <a className="footer__link--icon" href="mailto:dev@moonstruck.pro">
+        <a className="footer__link--icon" aria-label='Link to my mail' href="mailto:dev@moonstruck.pro">
           <FontAwesomeIcon icon={faEnvelope} /> {/* Use faEnvelope icon */}
         </a>
       </li>
