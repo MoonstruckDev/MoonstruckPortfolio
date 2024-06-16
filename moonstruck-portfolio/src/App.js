@@ -10,6 +10,7 @@ import Projects from './pages/projects/projects.jsx';
 import Contact from './pages/contact/contact.jsx';
 
 import './styles/fonts.scss';
+import Footer from './layouts/footer/footer.jsx';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/Contact" element={<Contact />} />
         <Route path="*" element={<Error />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

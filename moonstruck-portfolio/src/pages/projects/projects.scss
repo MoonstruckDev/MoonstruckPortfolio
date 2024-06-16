@@ -5,6 +5,15 @@
     margin-top: 1rem;
 }
 
+.github-badge > a {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    gap : 1rem;
+    align-items: center;
+}
+
 .description {
     margin-top: 5rem;
     padding: 0 2rem;

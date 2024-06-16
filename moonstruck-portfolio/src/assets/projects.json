@@ -2,31 +2,49 @@
     {
         "id": "0",
         "title": "Booki",
-        "description": "Description placeholder text for Booki project.",
+        "description": "A comprehensive travel platform for booking accommodations and finding local activities in any city.",
+        "description_2": "Designed for responsive access on all devices, ensuring optimal layout and functionality.",        
         "cover": {
             "src": "booki_cover",
             "alt": "TEXTE ALTERNATIF DE L’IMAGE",
             "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
         },
         "pictures": {
-            "1": "booki_picture_1",
-            "2": "booki_picture_2"
+            "1": {
+                "src": "booki_picture_1",
+                "alt": "TEXTE ALTERNATIF DE L’IMAGE",
+                "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
+            },
+            "2": {
+                "src": "booki_picture_2",
+                "alt": "TEXTE ALTERNATIF DE L’IMAGE",
+                "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
+            }
         },
         "techstack": ["css", "html"],
-        "link": "PLACEHOLDER"
+        "link": "https://github.com/MoonstruckDev/Booki"
     },
     {
         "id": "1",
         "title": "Ohmyfood",
         "description": "Description placeholder text for Ohmyfood project.",
+        "description_2": "Additional description placeholder text for Ohmyfood project.",
         "cover": {
             "src": "ohmyfood_cover",
             "alt": "TEXTE ALTERNATIF DE L’IMAGE",
             "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
         },
         "pictures": {
-            "1": "ohmyfood_picture_1",
-            "2": "ohmyfood_picture_2"
+            "1": {
+                "src": "ohmyfood_picture_1",
+                "alt": "TEXTE ALTERNATIF DE L’IMAGE",
+                "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
+            },
+            "2": {
+                "src": "ohmyfood_picture_2",
+                "alt": "TEXTE ALTERNATIF DE L’IMAGE",
+                "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
+            }
         },
         "techstack": ["scss", "html"],
         "link": "PLACEHOLDER"
@@ -35,14 +53,23 @@
         "id": "2",
         "title": "Printit",
         "description": "Description placeholder text for Printit project.",
+        "description_2": "Additional description placeholder text for Printit project.",
         "cover": {
             "src": "printit_cover",
             "alt": "TEXTE ALTERNATIF DE L’IMAGE",
             "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
         },
         "pictures": {
-            "1": "printit_picture_1",
-            "2": "printit_picture_2"
+            "1": {
+                "src": "printit_picture_1",
+                "alt": "TEXTE ALTERNATIF DE L’IMAGE",
+                "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
+            },
+            "2": {
+                "src": "printit_picture_2",
+                "alt": "TEXTE ALTERNATIF DE L’IMAGE",
+                "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
+            }
         },
         "techstack": ["css", "html"],
         "link": "PLACEHOLDER"
@@ -51,14 +78,23 @@
         "id": "3",
         "title": "Sophie Bluel",
         "description": "Description placeholder text for Sophie Bluel project.",
+        "description_2": "Additional description placeholder text for Sophie Bluel project.",
         "cover": {
             "src": "sophie_bluel_cover",
             "alt": "TEXTE ALTERNATIF DE L’IMAGE",
             "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
         },
         "pictures": {
-            "1": "sophie_bluel_picture_1",
-            "2": "sophie_bluel_picture_2"
+            "1": {
+                "src": "sophie_bluel_picture_1",
+                "alt": "TEXTE ALTERNATIF DE L’IMAGE",
+                "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
+            },
+            "2": {
+                "src": "sophie_bluel_picture_2",
+                "alt": "TEXTE ALTERNATIF DE L’IMAGE",
+                "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
+            }
         },
         "techstack": ["css", "html", "javascript"],
         "link": "PLACEHOLDER"
@@ -67,14 +103,23 @@
         "id": "4",
         "title": "Kasa",
         "description": "Description placeholder text for Kasa project.",
+        "description_2": "Additional description placeholder text for Kasa project.",
         "cover": {
             "src": "kasa_cover",
             "alt": "TEXTE ALTERNATIF DE L’IMAGE",
             "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
         },
         "pictures": {
-            "1": "kasa_picture_1",
-            "2": "kasa_picture_2"
+            "1": {
+                "src": "kasa_picture_1",
+                "alt": "TEXTE ALTERNATIF DE L’IMAGE",
+                "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
+            },
+            "2": {
+                "src": "kasa_picture_2",
+                "alt": "TEXTE ALTERNATIF DE L’IMAGE",
+                "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
+            }
         },
         "techstack": ["scss", "html", "react", "javascript"],
         "link": "PLACEHOLDER"
@@ -83,14 +128,23 @@
         "id": "5",
         "title": "Nina Carducci",
         "description": "Description placeholder text for Nina Carducci project.",
+        "description_2": "Additional description placeholder text for Nina Carducci project.",
         "cover": {
             "src": "nina_carducci_cover",
             "alt": "TEXTE ALTERNATIF DE L’IMAGE",
             "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
         },
         "pictures": {
-            "1": "nina_carducci_picture_1",
-            "2": "nina_carducci_picture_2"
+            "1": {
+                "src": "nina_carducci_picture_1",
+                "alt": "TEXTE ALTERNATIF DE L’IMAGE",
+                "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
+            },
+            "2": {
+                "src": "nina_carducci_picture_2",
+                "alt": "TEXTE ALTERNATIF DE L’IMAGE",
+                "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
+            }
         },
         "techstack": ["css", "html", "javascript"],
         "link": "PLACEHOLDER"
@@ -99,14 +153,23 @@
         "id": "6",
         "title": "ArgentBank",
         "description": "Description placeholder text for ArgentBank project.",
+        "description_2": "Additional description placeholder text for ArgentBank project.",
         "cover": {
             "src": "argentbank_cover",
             "alt": "TEXTE ALTERNATIF DE L’IMAGE",
             "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
         },
         "pictures": {
-            "1": "argentbank_picture_1",
-            "2": "argentbank_picture_2"
+            "1": {
+                "src": "argentbank_picture_1",
+                "alt": "TEXTE ALTERNATIF DE L’IMAGE",
+                "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
+            },
+            "2": {
+                "src": "argentbank_picture_2",
+                "alt": "TEXTE ALTERNATIF DE L’IMAGE",
+                "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
+            }
         },
         "techstack": ["scss", "html", "javascript", "redux", "react"],
         "link": "PLACEHOLDER"
