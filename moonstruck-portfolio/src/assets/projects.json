@@ -6,19 +6,16 @@
         "description_2": "Designed for responsive access on all devices, ensuring optimal layout and functionality.",        
         "cover": {
             "src": "booki_cover",
-            "alt": "TEXTE ALTERNATIF DE L’IMAGE",
-            "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
+            "alt": "Booki project's homepage cards"
         },
         "pictures": {
             "1": {
                 "src": "booki_picture_1",
-                "alt": "TEXTE ALTERNATIF DE L’IMAGE",
-                "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
+                "alt": "A showcase showing the Booki project whole overview"
             },
             "2": {
                 "src": "booki_picture_2",
-                "alt": "TEXTE ALTERNATIF DE L’IMAGE",
-                "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
+                "alt": "A showcase showing the responsive design of the Booki project on a mobile device"
             }
         },
         "techstack": ["css", "html"],
@@ -27,151 +24,151 @@
     {
         "id": "1",
         "title": "Ohmyfood",
-        "description": "Description placeholder text for Ohmyfood project.",
-        "description_2": "Additional description placeholder text for Ohmyfood project.",
+        "description": "Ohmyfood is an online meal ordering company. Our concept allows users to create their own menu and reduce their waiting time at restaurants because their menu is prepared in advance. No more time wasted consulting the menu.",
+        "description_2": "Designed in mobile first, the website is fully responsive and accessible on all devices. The project was created with SCSS and HTML only.",
         "cover": {
             "src": "ohmyfood_cover",
-            "alt": "TEXTE ALTERNATIF DE L’IMAGE",
-            "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
+            "alt": "OhMyFood's hero section with a section showing the steps to order a meal"
+
         },
         "pictures": {
             "1": {
                 "src": "ohmyfood_picture_1",
-                "alt": "TEXTE ALTERNATIF DE L’IMAGE",
-                "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
+                "alt": "An overview of the OhMyFood website"
+   
             },
             "2": {
                 "src": "ohmyfood_picture_2",
-                "alt": "TEXTE ALTERNATIF DE L’IMAGE",
-                "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
+                "alt": "A showcase of the responsive design of the OhMyFood project on a mobile device"
+   
             }
         },
         "techstack": ["scss", "html"],
-        "link": "PLACEHOLDER"
+        "link": "https://github.com/MoonstruckDev/ohmyfood"
     },
     {
         "id": "2",
         "title": "Printit",
-        "description": "Description placeholder text for Printit project.",
-        "description_2": "Additional description placeholder text for Printit project.",
+        "description": "PrintIt is a company that offers a wide range of printing services. We provide high-quality prints, fast delivery, and competitive prices. We can print anything, from business cards to banners, and we offer a wide range of materials and finishes.",
+        "description_2": "My first steps in Javascript where I had to fix a simple javascript slider",
         "cover": {
             "src": "printit_cover",
-            "alt": "TEXTE ALTERNATIF DE L’IMAGE",
-            "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
+            "alt": "An overview of the PrintIt website"
+
         },
         "pictures": {
             "1": {
                 "src": "printit_picture_1",
-                "alt": "TEXTE ALTERNATIF DE L’IMAGE",
-                "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
+                "alt": "A general overview of the PrintIt website"
+   
             },
             "2": {
                 "src": "printit_picture_2",
-                "alt": "TEXTE ALTERNATIF DE L’IMAGE",
-                "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
+                "alt": "Picture of the slider I had to fix in the PrintIt project"
+   
             }
         },
-        "techstack": ["css", "html"],
-        "link": "PLACEHOLDER"
+        "techstack": ["css", "html", "javascript"],
+        "link": "https://github.com/MoonstruckDev/printit-"
     },
     {
         "id": "3",
         "title": "Sophie Bluel",
-        "description": "Description placeholder text for Sophie Bluel project.",
-        "description_2": "Additional description placeholder text for Sophie Bluel project.",
+        "description": "Sophie Bluel is the project website of an interior designer. The website showcases the designer's portfolio and services. The website is fully responsive and accessible on all devices. The project was created with SCSS, HTML, and Javascript.",
+        "description_2": "I was tasked with creating the website from Figma models, coding the login, creating a responsive design and filtering the works by category.",
         "cover": {
             "src": "sophie_bluel_cover",
-            "alt": "TEXTE ALTERNATIF DE L’IMAGE",
-            "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
+            "alt": "Overview of the Sophie Bluel website"
+
         },
         "pictures": {
             "1": {
                 "src": "sophie_bluel_picture_1",
-                "alt": "TEXTE ALTERNATIF DE L’IMAGE",
-                "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
+                "alt": "Overview of the Sophie Bluel website"
+   
             },
             "2": {
                 "src": "sophie_bluel_picture_2",
-                "alt": "TEXTE ALTERNATIF DE L’IMAGE",
-                "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
+                "alt": "Filtering the works by category in the Sophie Bluel project"
+   
             }
         },
         "techstack": ["css", "html", "javascript"],
-        "link": "PLACEHOLDER"
+        "link": "https://github.com/MoonstruckDev/sophie-bluel"
     },
     {
         "id": "4",
         "title": "Kasa",
-        "description": "Description placeholder text for Kasa project.",
-        "description_2": "Additional description placeholder text for Kasa project.",
+        "description": "For this project I had to make a website in React for a real estate agency. The website used react router to navigate between pages.",
+        "description_2": "Every aspect of this website was generated dynamically from a JSON file. The website is fully responsive and accessible on all devices. The project was created with SCSS, HTML, React, and Javascript.",
         "cover": {
             "src": "kasa_cover",
-            "alt": "TEXTE ALTERNATIF DE L’IMAGE",
-            "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
+            "alt": "An overview of the Kasa website"
+
         },
         "pictures": {
             "1": {
                 "src": "kasa_picture_1",
-                "alt": "TEXTE ALTERNATIF DE L’IMAGE",
-                "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
+                "alt": "A general overview of the Kasa website"
+   
             },
             "2": {
                 "src": "kasa_picture_2",
-                "alt": "TEXTE ALTERNATIF DE L’IMAGE",
-                "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
+                "alt": "Overview of a property page in the Kasa projectt"
+   
             }
         },
         "techstack": ["scss", "html", "react", "javascript"],
-        "link": "PLACEHOLDER"
+        "link": "https://github.com/MoonstruckDev/Kasa"
     },
     {
         "id": "5",
         "title": "Nina Carducci",
-        "description": "Description placeholder text for Nina Carducci project.",
-        "description_2": "Additional description placeholder text for Nina Carducci project.",
+        "description": "Nina Carducci's website is a website for a photographer, this project had us optimise the website for SEO. The website is fully responsive and accessible on all devices. The project was created with SCSS, HTML, and Javascript.",
+        "description_2": "We used Google Lighthouse, Rich Text Snippets and wave to help the optimisation of the website.",
         "cover": {
             "src": "nina_carducci_cover",
-            "alt": "TEXTE ALTERNATIF DE L’IMAGE",
-            "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
+            "alt": "Overview of the nina carducci website"
+
         },
         "pictures": {
             "1": {
                 "src": "nina_carducci_picture_1",
-                "alt": "TEXTE ALTERNATIF DE L’IMAGE",
-                "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
+                "alt": "A general overview of the nina carducci website"
+   
             },
             "2": {
                 "src": "nina_carducci_picture_2",
-                "alt": "TEXTE ALTERNATIF DE L’IMAGE",
-                "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
+                "alt": "Image of the lighthouse results after optimising the nina carducci website"
+   
             }
         },
         "techstack": ["css", "html", "javascript"],
-        "link": "PLACEHOLDER"
+        "link": "https://github.com/MoonstruckDev/NinaCarducci"
     },
     {
         "id": "6",
         "title": "ArgentBank",
-        "description": "Description placeholder text for ArgentBank project.",
-        "description_2": "Additional description placeholder text for ArgentBank project.",
+        "description": "This project had us make a website for a bank. The website had to be made in React and use Redux for state management.",
+        "description_2": "The website had to be fully responsive and accessible on all devices. The project was created with SCSS, HTML, React, Redux, and Javascript.",
         "cover": {
             "src": "argentbank_cover",
-            "alt": "TEXTE ALTERNATIF DE L’IMAGE",
-            "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
+            "alt": "Overview of the Argentbank website"
+
         },
         "pictures": {
             "1": {
                 "src": "argentbank_picture_1",
-                "alt": "TEXTE ALTERNATIF DE L’IMAGE",
-                "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
+                "alt": "A general overview of the Argentbank website"
+   
             },
             "2": {
                 "src": "argentbank_picture_2",
-                "alt": "TEXTE ALTERNATIF DE L’IMAGE",
-                "caption": "LÉGENDE DE L’IMAGE (si besoin, peut-être pas…)"
+                "alt": "The customer dashboard in the Argentbank project"
+   
             }
         },
         "techstack": ["scss", "html", "javascript", "redux", "react"],
-        "link": "PLACEHOLDER"
+        "link": "https://github.com/MoonstruckDev/ArgentBank-P11"
     }
 ]
