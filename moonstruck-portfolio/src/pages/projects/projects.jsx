@@ -23,7 +23,6 @@ function Projects() {
   return (
     <>
       <Slider projects={projectData} currentIndex={currentIndex} setCurrentIndex={setCurrentIndex} />
-      <section>
         <div className="tech-stack">
           {currentProject.techstack.map((tech, idx) => (
             <div key={idx} className="badge-container">
@@ -31,7 +30,8 @@ function Projects() {
             </div>
           ))}
         </div>
-        <div className="description">
+        <section className='main__container'>
+        <article className="description">
           <img
             src={pictures[currentProject.pictures[1].src]}
             alt={currentProject.pictures[1].alt}
@@ -40,8 +40,8 @@ function Projects() {
             style={{ cursor: 'pointer' }}
           />
           <h2 className='description__text'>{currentProject.description}</h2>
-        </div>
-        <div className="description">
+        </article>
+        <article className="description_2">
           <img
             src={pictures[currentProject.pictures[2].src]}
             alt={currentProject.pictures[2].alt}
@@ -50,14 +50,14 @@ function Projects() {
             style={{ cursor: 'pointer' }}
           />
           <h3 className='description__text'>{currentProject.description_2}</h3>
-        </div>
+        </article>
         <div className="github-badge">
         <a href={currentProject.link}>
           <h4>Checkout the github repo</h4>
           {getBadgeComponent('github')}
           </a>
         </div>
-      </section>
+        </section>
 
       {modalImage && (
         <ImageModal
