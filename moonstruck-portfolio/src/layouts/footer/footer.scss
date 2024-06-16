@@ -1,18 +1,13 @@
 .footer {
 
-    background-color: grey;
+    background-color: #333;
     width: 100%;
     margin-top: 5rem;
-    padding: 1rem 0;
+    padding: 2rem 0;
     color: white;
     display: flex;
-
     flex-direction: column;
-    gap: 8px;
-
-    // position: absolute;
-    // bottom: 0;
-
+    gap: 1.5rem;
 
     &__list {
         display: flex;
@@ -24,7 +19,30 @@
     }
 
     &__license {
-        font-size: 10px;
+        font-size: .8rem;
         text-align: center;
     }
+
+    &__link--icon {
+        font-size: 1.2rem;
+        color: white;
+
+        &:hover svg {
+            animation: pulsate 1s infinite;
+        }
+    }
 }
+
+/* Define pulsate animation */
+@keyframes pulsate {
+    0% {
+      transform: scale(1); /* Start at normal size */
+    }
+    50% {
+      transform: scale(1.2); /* Scale to 110% */
+    }
+    100% {
+      transform: scale(1); /* Back to normal size */
+    }
+  }
+  
