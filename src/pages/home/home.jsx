@@ -22,7 +22,7 @@ function Home() {
       </section>
       <section className="introduction">
          <h2 className="introduction__title kalam-home">Hi, I'm MoonstruckDev!</h2>
-         <p className="introduction__text">I'm a full stack developer with a passion for creating beautiful and functional websites. I specialize in front-end development with React & Sass. Ever since I was a kid I enjoyed anything tech related so when I got my first laptop in break time I would make very basic websites with just HTML, that was fun to me and altough they weren't pretty this ignited a lifelong passion in web dev! So it was an obvious choice for me to get officially recognized as a web developper so I chose to do my studies with Openclassrooms.<br /><br />I'm always looking for new projects to work on, so feel free to reach out to me if you have any questions or need help with a project.</p>
+         <p className="introduction__text">I'm a web developer with a passion for creating beautiful and functional websites. I specialize in front-end development with React & Sass. Ever since I was a kid I enjoyed anything tech related so when I got my first laptop in break time I would make very basic websites with just HTML, that was fun to me and altough they weren't pretty this ignited a lifelong passion in web dev! So it was an obvious choice for me to get officially recognized as a web developper so I chose to do my studies with Openclassrooms.<br /><br />I'm always looking for new projects to work on, so feel free to reach out to me if you have any questions or need help with a project.</p>
 
       </section>
       <div className="wrapper">
