@@ -17,9 +17,9 @@ const Footer = () => (
         </a>
       </li>
     </ul>
-    <h5 className="footer__license">
+    <p className="footer__license">
       MoonstruckDev © 2023 by MoonstruckSpirit<br /> is licensed under CC BY-NC 4.0
-    </h5>
+    </p>
   </footer>
 );
 

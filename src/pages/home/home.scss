@@ -1,6 +1,13 @@
+.kalam-home {
+    font-family: kalam;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
 .hero__header {
 
     position: relative;
+    background-color: black;
 
     &--image {
         object-fit: cover;
@@ -14,10 +21,7 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        font-size: 3rem;
-        font-weight: 700;
         color: white;
-        z-index: 10; /* Example value */
     }
 }
 
@@ -29,15 +33,24 @@
     padding-top: 50px;
     text-align: center;
 
+    &__cta {
+        text-decoration: underline;
+        font-family: Kalam;
+        margin-top: 4rem;
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+
     &__title {
         font-size: 2rem;
         margin-bottom: 20px;
+        color: black;
     }
 
     &__text {
         width: 80%;
         font-size: 1rem;
-        color: #666;
+        color: black;
     }
 }
 
@@ -91,7 +104,6 @@
         gap: 3rem;
         border-radius: 10px;
         width: 100px;
-        filter: grayscale(1);
 
 
         & > svg {
@@ -112,6 +124,8 @@
 	position: relative;
 	margin-top: 90px;
 	height: 1px;
+
+
 }
 
 .div-transparent:before
