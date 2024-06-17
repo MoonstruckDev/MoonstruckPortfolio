@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MoonstruckPortfolio/static/css/main.93e48f32.css",
-    "main.js": "/MoonstruckPortfolio/static/js/main.77875eaa.js",
+    "main.css": "/MoonstruckPortfolio/static/css/main.4ef75b4b.css",
+    "main.js": "/MoonstruckPortfolio/static/js/main.dfd8ded9.js",
     "static/js/453.835bb602.chunk.js": "/MoonstruckPortfolio/static/js/453.835bb602.chunk.js",
     "static/media/nina_carducci_picture_1.avif": "/MoonstruckPortfolio/static/media/nina_carducci_picture_1.60d7126b5632308a0f93.avif",
     "static/media/wave.gif": "/MoonstruckPortfolio/static/media/wave.d052c3646a6eb1335b21.gif",
@@ -30,19 +30,19 @@
     "static/media/react_badge.svg": "/MoonstruckPortfolio/static/media/react_badge.5af2dd30cdd52c613347ab2e335ddc87.svg",
     "static/media/logo_OC.avif": "/MoonstruckPortfolio/static/media/logo_OC.930f65a40aa455de599f.avif",
     "static/media/redux_badge.svg": "/MoonstruckPortfolio/static/media/redux_badge.46e3624d1d5529efdae38249a7fb180a.svg",
+    "index.html": "/MoonstruckPortfolio/index.html",
     "static/media/sass_badge.svg": "/MoonstruckPortfolio/static/media/sass_badge.fe828cd9133e1f9e756295d6f3824ec3.svg",
     "static/media/javascript_badge.svg": "/MoonstruckPortfolio/static/media/javascript_badge.5c08f9fd86ed04e66f9718669d29cbc9.svg",
     "static/media/github_badge.svg": "/MoonstruckPortfolio/static/media/github_badge.60a6addf3f613dcfe263d5aae93ec472.svg",
     "static/media/html_badge.svg": "/MoonstruckPortfolio/static/media/html_badge.4871d3af876b3ab6f5e86831a6442403.svg",
     "static/media/css_badge.svg": "/MoonstruckPortfolio/static/media/css_badge.ef670df17f6a6b0c52b8d9ea1ac4fc50.svg",
-    "index.html": "/MoonstruckPortfolio/index.html",
     "static/media/arrow.svg": "/MoonstruckPortfolio/static/media/arrow.56361f85d4c737ba634a8e4ef2288416.svg",
-    "main.93e48f32.css.map": "/MoonstruckPortfolio/static/css/main.93e48f32.css.map",
-    "main.77875eaa.js.map": "/MoonstruckPortfolio/static/js/main.77875eaa.js.map",
+    "main.4ef75b4b.css.map": "/MoonstruckPortfolio/static/css/main.4ef75b4b.css.map",
+    "main.dfd8ded9.js.map": "/MoonstruckPortfolio/static/js/main.dfd8ded9.js.map",
     "453.835bb602.chunk.js.map": "/MoonstruckPortfolio/static/js/453.835bb602.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.93e48f32.css",
-    "static/js/main.77875eaa.js"
+    "static/css/main.4ef75b4b.css",
+    "static/js/main.dfd8ded9.js"
   ]
 }
