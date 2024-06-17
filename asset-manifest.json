@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MoonstruckPortfolio/static/css/main.4ef75b4b.css",
-    "main.js": "/MoonstruckPortfolio/static/js/main.dfd8ded9.js",
+    "main.css": "/MoonstruckPortfolio/static/css/main.52de996a.css",
+    "main.js": "/MoonstruckPortfolio/static/js/main.0a5bd099.js",
     "static/js/453.835bb602.chunk.js": "/MoonstruckPortfolio/static/js/453.835bb602.chunk.js",
     "static/media/nina_carducci_picture_1.avif": "/MoonstruckPortfolio/static/media/nina_carducci_picture_1.60d7126b5632308a0f93.avif",
     "static/media/wave.gif": "/MoonstruckPortfolio/static/media/wave.d052c3646a6eb1335b21.gif",
@@ -37,12 +37,12 @@
     "static/media/html_badge.svg": "/MoonstruckPortfolio/static/media/html_badge.4871d3af876b3ab6f5e86831a6442403.svg",
     "static/media/css_badge.svg": "/MoonstruckPortfolio/static/media/css_badge.ef670df17f6a6b0c52b8d9ea1ac4fc50.svg",
     "static/media/arrow.svg": "/MoonstruckPortfolio/static/media/arrow.56361f85d4c737ba634a8e4ef2288416.svg",
-    "main.4ef75b4b.css.map": "/MoonstruckPortfolio/static/css/main.4ef75b4b.css.map",
-    "main.dfd8ded9.js.map": "/MoonstruckPortfolio/static/js/main.dfd8ded9.js.map",
+    "main.52de996a.css.map": "/MoonstruckPortfolio/static/css/main.52de996a.css.map",
+    "main.0a5bd099.js.map": "/MoonstruckPortfolio/static/js/main.0a5bd099.js.map",
     "453.835bb602.chunk.js.map": "/MoonstruckPortfolio/static/js/453.835bb602.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ef75b4b.css",
-    "static/js/main.dfd8ded9.js"
+    "static/css/main.52de996a.css",
+    "static/js/main.0a5bd099.js"
   ]
 }
