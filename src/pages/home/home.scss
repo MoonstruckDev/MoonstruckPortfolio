@@ -1,0 +1,142 @@
+.hero__header {
+
+    position: relative;
+
+    &--image {
+        object-fit: cover;
+        width: 100%;
+        height: 400px;
+        filter: brightness(0.5);
+    }
+
+    &--title {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 3rem;
+        font-weight: 700;
+        color: white;
+        z-index: 10; /* Example value */
+    }
+}
+
+.introduction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+    text-align: center;
+
+    &__title {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+    &__text {
+        width: 80%;
+        font-size: 1rem;
+        color: #666;
+    }
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+
+    &__title {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+    &__badges {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        flex-wrap: wrap;
+        padding: 0 10px;
+
+        & > svg {
+            transform: scale(1.4);
+        }
+    }
+}
+
+.certifications {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+
+    &__text {
+        font-size: 2rem;
+        margin-top: 20px;
+
+        &--extra {
+            font-size: 1rem;
+            color: #666;
+        }
+    }
+
+    &__school {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        border-radius: 10px;
+        width: 100px;
+        filter: grayscale(1);
+
+
+        & > svg {
+            transform: scale(1.4);
+        }
+    }
+
+}
+
+
+.wrapper
+{
+	padding-bottom: 80px;
+}
+
+.divider
+{
+	position: relative;
+	margin-top: 90px;
+	height: 1px;
+}
+
+.div-transparent:before
+{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 5%;
+	right: 5%;
+	width: 90%;
+	height: 1px;
+	background-image: linear-gradient(to right, transparent, rgb(48,49,51), transparent);
+}
+
+.div-arrow-down:after
+{
+	content: "";
+	position: absolute;
+	z-index: 1;
+	top: -7px;
+	left: calc(50% - 7px);
+	width: 14px;
+	height: 14px;
+	transform: rotate(45deg);
+	background-color: white;
+	border-bottom: 1px solid rgb(48,49,51);
+	border-right: 1px solid rgb(48,49,51);
+}

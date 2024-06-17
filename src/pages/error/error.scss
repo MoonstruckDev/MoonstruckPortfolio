@@ -1,0 +1,30 @@
+.error {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    align-items: center;
+    height: 90vh;
+    font-size: 2rem;
+    flex-direction: column;
+
+    &__title, &__code {
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+
+    &__link {
+        animation: pulsate 1s infinite;
+    }
+}
+
+@keyframes pulsate {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
