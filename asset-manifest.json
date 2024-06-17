@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MoonstruckPortfolio/static/css/main.1d93e141.css",
-    "main.js": "/MoonstruckPortfolio/static/js/main.f62d6749.js",
+    "main.css": "/MoonstruckPortfolio/static/css/main.93e48f32.css",
+    "main.js": "/MoonstruckPortfolio/static/js/main.77875eaa.js",
     "static/js/453.835bb602.chunk.js": "/MoonstruckPortfolio/static/js/453.835bb602.chunk.js",
     "static/media/nina_carducci_picture_1.avif": "/MoonstruckPortfolio/static/media/nina_carducci_picture_1.60d7126b5632308a0f93.avif",
     "static/media/wave.gif": "/MoonstruckPortfolio/static/media/wave.d052c3646a6eb1335b21.gif",
@@ -18,6 +18,7 @@
     "static/media/printit_picture_2.avif": "/MoonstruckPortfolio/static/media/printit_picture_2.008165868a84c6a8e69f.avif",
     "static/media/argentbank_picture_1.avif": "/MoonstruckPortfolio/static/media/argentbank_picture_1.7dc819267204b37fbd01.avif",
     "static/media/ohmyfood_picture_2.avif": "/MoonstruckPortfolio/static/media/ohmyfood_picture_2.6cc34ac7fa9157d45651.avif",
+    "static/media/mountain_range.avif": "/MoonstruckPortfolio/static/media/mountain_range.0354d4f64d665edf15ba.avif",
     "static/media/booki_picture_2.avif": "/MoonstruckPortfolio/static/media/booki_picture_2.1c9d1c1cce89e4cbe8c5.avif",
     "static/media/kasa_cover.avif": "/MoonstruckPortfolio/static/media/kasa_cover.b6227e7fd6ad3f02cdf0.avif",
     "static/media/printit_cover.avif": "/MoonstruckPortfolio/static/media/printit_cover.642f1619e6a3431b7f53.avif",
@@ -25,7 +26,9 @@
     "static/media/nina_carducci_picture_2.avif": "/MoonstruckPortfolio/static/media/nina_carducci_picture_2.5ba832a36ed5621c0658.avif",
     "static/media/argentbank_picture_2.avif": "/MoonstruckPortfolio/static/media/argentbank_picture_2.6cac97d21c511ab64756.avif",
     "static/media/ohmyfood_cover.avif": "/MoonstruckPortfolio/static/media/ohmyfood_cover.d82ea7413dc63fb7d96e.avif",
+    "static/media/linkedin_icon.avif": "/MoonstruckPortfolio/static/media/linkedin_icon.1b7c5eae74f426d12b5d.avif",
     "static/media/react_badge.svg": "/MoonstruckPortfolio/static/media/react_badge.5af2dd30cdd52c613347ab2e335ddc87.svg",
+    "static/media/logo_OC.avif": "/MoonstruckPortfolio/static/media/logo_OC.930f65a40aa455de599f.avif",
     "static/media/redux_badge.svg": "/MoonstruckPortfolio/static/media/redux_badge.46e3624d1d5529efdae38249a7fb180a.svg",
     "static/media/sass_badge.svg": "/MoonstruckPortfolio/static/media/sass_badge.fe828cd9133e1f9e756295d6f3824ec3.svg",
     "static/media/javascript_badge.svg": "/MoonstruckPortfolio/static/media/javascript_badge.5c08f9fd86ed04e66f9718669d29cbc9.svg",
@@ -34,12 +37,12 @@
     "static/media/css_badge.svg": "/MoonstruckPortfolio/static/media/css_badge.ef670df17f6a6b0c52b8d9ea1ac4fc50.svg",
     "index.html": "/MoonstruckPortfolio/index.html",
     "static/media/arrow.svg": "/MoonstruckPortfolio/static/media/arrow.56361f85d4c737ba634a8e4ef2288416.svg",
-    "main.1d93e141.css.map": "/MoonstruckPortfolio/static/css/main.1d93e141.css.map",
-    "main.f62d6749.js.map": "/MoonstruckPortfolio/static/js/main.f62d6749.js.map",
+    "main.93e48f32.css.map": "/MoonstruckPortfolio/static/css/main.93e48f32.css.map",
+    "main.77875eaa.js.map": "/MoonstruckPortfolio/static/js/main.77875eaa.js.map",
     "453.835bb602.chunk.js.map": "/MoonstruckPortfolio/static/js/453.835bb602.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d93e141.css",
-    "static/js/main.f62d6749.js"
+    "static/css/main.93e48f32.css",
+    "static/js/main.77875eaa.js"
   ]
 }
