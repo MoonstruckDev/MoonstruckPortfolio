@@ -1,11 +1,13 @@
-import React, { useState } from 'react';
-import { ReactComponent as ArrowIcon } from '../../assets/icons/arrow.svg';
-import images from '../../helpers/getCoverImg'; // Assuming this helper returns image paths
-import './slider.scss';
+// Importing necessary dependencies and assets
+import React, { useState } from 'react'; // React and useState hook for state management
+import { ReactComponent as ArrowIcon } from '../../assets/icons/arrow.svg'; // SVG icon as a React component
+import images from '../../helpers/getCoverImg'; // Helper function for image paths
+import './slider.scss'; // SCSS stylesheet for the slider
 
 function Slider({ projects, currentIndex, setCurrentIndex }) {
-  const [direction, setDirection] = useState(null);
+  const [direction, setDirection] = useState(null); // State variable for animation direction
 
+  // Function to handle dot click, setting the direction and current index
   function handleDotClick(index) {
     if (index !== currentIndex) {
       setDirection(index > currentIndex ? 'next' : 'prev');
@@ -13,11 +15,13 @@ function Slider({ projects, currentIndex, setCurrentIndex }) {
     }
   }
 
+  // Function to go to the next image
   function nextImage() {
     setDirection('next');
     setCurrentIndex((prevIndex) => (prevIndex === projects.length - 1 ? 0 : prevIndex + 1));
   }
 
+  // Function to go to the previous image
   function prevImage() {
     setDirection('prev');
     setCurrentIndex((prevIndex) => (prevIndex === 0 ? projects.length - 1 : prevIndex - 1));
@@ -37,13 +41,10 @@ function Slider({ projects, currentIndex, setCurrentIndex }) {
         }
         return (
           <div key={index} className={slideClasses}>
-            {/* Removed Render Only Active due to black transition bug */}
-            {/* {index === currentIndex && (  */} 
-              <>
-                <img src={images[project.cover.src]} alt={`Slide ${index + 1}`} />
-                <h1 className="ProjectTitle kalam">{project.title}</h1>
-              </>
-            {/* )} */}
+            <>
+              <img src={images[project.cover.src]} alt={`Slide ${index + 1}`} />
+              <h1 className="ProjectTitle kalam">{project.title}</h1>
+            </>
           </div>
         );
       })}
