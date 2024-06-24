@@ -19,7 +19,8 @@
             }
         },
         "techstack": ["css", "html"],
-        "link": "https://github.com/MoonstruckDev/Booki"
+        "link": "https://github.com/MoonstruckDev/Booki",
+        "live": "https://booki.moonstruck.pro"
     },
     {
         "id": "1",
@@ -44,7 +45,8 @@
             }
         },
         "techstack": ["scss", "html"],
-        "link": "https://github.com/MoonstruckDev/ohmyfood"
+        "link": "https://github.com/MoonstruckDev/ohmyfood",
+        "live": "https://ohmyfood.moonstruck.pro"
     },
     {
         "id": "2",
@@ -69,7 +71,8 @@
             }
         },
         "techstack": ["css", "html", "javascript"],
-        "link": "https://github.com/MoonstruckDev/printit-"
+        "link": "https://github.com/MoonstruckDev/printit-",
+        "live": "https://printit.moonstruck.pro"
     },
     {
         "id": "3",
@@ -119,7 +122,8 @@
             }
         },
         "techstack": ["scss", "html", "react", "javascript"],
-        "link": "https://github.com/MoonstruckDev/Kasa"
+        "link": "https://github.com/MoonstruckDev/Kasa",
+        "live": "https://kasa.moonstruck.pro"
     },
     {
         "id": "5",
@@ -144,7 +148,8 @@
             }
         },
         "techstack": ["css", "html", "javascript"],
-        "link": "https://github.com/MoonstruckDev/NinaCarducci"
+        "link": "https://github.com/MoonstruckDev/NinaCarducci",
+        "live": "https://ninacarducci.moonstruck.pro"
     },
     {
         "id": "6",
