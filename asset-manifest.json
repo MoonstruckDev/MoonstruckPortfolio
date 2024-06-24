@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.52de996a.css",
-    "main.js": "/static/js/main.805de9ba.js",
+    "main.css": "/static/css/main.127427ec.css",
+    "main.js": "/static/js/main.1a15332b.js",
     "static/js/453.835bb602.chunk.js": "/static/js/453.835bb602.chunk.js",
     "static/media/nina_carducci_picture_1.avif": "/static/media/nina_carducci_picture_1.60d7126b5632308a0f93.avif",
     "static/media/wave.gif": "/static/media/wave.d052c3646a6eb1335b21.gif",
@@ -34,15 +34,16 @@
     "static/media/sass_badge.svg": "/static/media/sass_badge.fe828cd9133e1f9e756295d6f3824ec3.svg",
     "static/media/javascript_badge.svg": "/static/media/javascript_badge.5c08f9fd86ed04e66f9718669d29cbc9.svg",
     "static/media/github_badge.svg": "/static/media/github_badge.60a6addf3f613dcfe263d5aae93ec472.svg",
+    "static/media/website_badge.svg": "/static/media/website_badge.b52e431a1020a1e3bc767d9f6be7b325.svg",
     "static/media/html_badge.svg": "/static/media/html_badge.4871d3af876b3ab6f5e86831a6442403.svg",
     "static/media/css_badge.svg": "/static/media/css_badge.ef670df17f6a6b0c52b8d9ea1ac4fc50.svg",
     "static/media/arrow.svg": "/static/media/arrow.56361f85d4c737ba634a8e4ef2288416.svg",
-    "main.52de996a.css.map": "/static/css/main.52de996a.css.map",
-    "main.805de9ba.js.map": "/static/js/main.805de9ba.js.map",
+    "main.127427ec.css.map": "/static/css/main.127427ec.css.map",
+    "main.1a15332b.js.map": "/static/js/main.1a15332b.js.map",
     "453.835bb602.chunk.js.map": "/static/js/453.835bb602.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.52de996a.css",
-    "static/js/main.805de9ba.js"
+    "static/css/main.127427ec.css",
+    "static/js/main.1a15332b.js"
   ]
 }
