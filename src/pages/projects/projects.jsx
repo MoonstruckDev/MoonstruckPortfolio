@@ -35,6 +35,7 @@ function Projects() {
         ))}
       </div>
       <section className="main__container">
+        <div className="descriptions">
         <article className="description">
           <img
             src={pictures[currentProject.pictures[1].src]}
@@ -55,9 +56,12 @@ function Projects() {
           />
           <h3 className="description__text">{currentProject.description_2}</h3>
         </article>
+        </div>
         <div className="github-badge">
           {currentProject.live ? (
-            <a href={currentProject.live}>Link To The Website</a>
+            <a href={currentProject.live}>
+             <h4>Checkout the live website!</h4>
+              {getBadgeComponent("website")}</a>
           ) : null}
 
           <a href={currentProject.link}>
